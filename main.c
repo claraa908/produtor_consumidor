@@ -1,3 +1,12 @@
+/*
+Trabalho desenvolvido por:
+Alana Maria Sousa Augusto - 564976
+Clara Cruz Alves - 568563
+Jennifer Marques de Brito - 569710
+
+1° parte da primeira questão 
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
