@@ -31,15 +31,6 @@ int buffer[5]; //buffer com 5 espaços
 int in = 0; // indice de acesso do produtor
 int out = 0; // indice de acesso do consumidor
 
-/**
- * @brief Função do produtor recebe a quantidade de produtos que uma thread vai 
- * produzir, converte a quantidade para inteiro, cria um iterador, pega o id da
- * thread, ????. 
- * 
- * No while, diminui uma vaga disponível(DOWN) para colocar um produto, proteje a área
- * de concorrência (LOCK), aleatoriza um preço para o produto e o associa ao produto
- * atualiza o indice de forma circular (caso passe do valor, reinicia), 
-*/
 DWORD WINAPI producer(LPVOID args){
     int n = *((int *) args);
     int it = 0;
